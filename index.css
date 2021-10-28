@@ -1,0 +1,42 @@
+body{
+   margin: 0%; 
+}
+.main{
+    background-color: rgb(158, 16, 16);
+    height: 100%;
+    width: 100%;
+    border:2px dotted turquoise;
+    
+}
+.container{
+    box-shadow: 0 0 50px purple;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    border: 10px dottedd black;
+    margin: 5% 10% 5% 10%;
+}
+#image{
+float: left;
+height: 100%;
+width: 30%;
+background-color:black;
+}
+#content{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(121, 20, 121);
+
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 30%;
+}
+h1:hover{
+    color: tomato;
+    text-align: center;
+    
+}
